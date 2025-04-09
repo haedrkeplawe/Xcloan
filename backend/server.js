@@ -26,7 +26,7 @@ app.use(cookieParser());
 app.use(
   cors({
     credentials: true,
-    origin: ["http://localhost:3000", "http://localhost:5173",,"https://fascinating-yeot-36a16e.netlify.app"],
+    origin: ["http://localhost:3000", "http://localhost:5173",,"https://zingy-bunny-08ff86.netlify.app"],
   })
 );
 app.use(express.urlencoded({ extended: false }));
