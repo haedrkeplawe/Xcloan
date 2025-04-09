@@ -56,7 +56,7 @@ const login = async (req, res) => {
     if (!userDoc || !isPasswordCorrect) {
       return res.status(400).json({ error: "Invalid username or password" });
     }
-
+console.log(username, password )
     generateTokenAndSetCookie(userDoc._id, res);
 
     return res.status(201).json({
