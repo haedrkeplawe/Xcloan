@@ -26,7 +26,7 @@ app.use(cookieParser());
 app.use(
   cors({
     credentials: true,
-    origin: ["http://localhost:3000", "http://localhost:5173","https://legendary-paletas-918106.netlify.app"],
+    origin: ["http://localhost:3000", "http://localhost:5173","https://beamish-kulfi-d0d3a0.netlify.app"],
   })
 );
 app.use(express.urlencoded({ extended: false }));
